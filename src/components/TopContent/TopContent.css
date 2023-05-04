@@ -7,7 +7,8 @@
 .topcontent__container{
     position: absolute;
     top: 300px;
-    left: 90px;
+    left: 40px;
+    color: black;
 }
 
 .topcontent__container > p{
@@ -47,8 +48,7 @@
 
 .topcontent__hireButton{
     color: white;
-    border: 1px solid white !important;
-    background-color: transparent;
+    background-color: orangered;
     font-size: 14px;
     padding: 9px 45px;
     font-family:  "Montserrate",sans-serif;
@@ -61,7 +61,7 @@
     font-weight: 600;
 }
 .topcontent__hireButton:hover{
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: black;
     font-weight: 600;
 }

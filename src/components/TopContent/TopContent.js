@@ -25,8 +25,7 @@ const TopContent = () => {
                   repeat={Infinity}
                   style={{ fontSize: "1rem", display: "inline-block" }}
                 />
-              </h2>
-        <p>Interested to work as a MERN STACK DEVELOPER</p><br></br>
+              </h2><br></br>
         <a href="Ahamed Anas Ali A.pdf" download="Ahamed Anas Ali A.pdf">
           <button className="topcontent__downloadButton">Resume</button>
         </a>
