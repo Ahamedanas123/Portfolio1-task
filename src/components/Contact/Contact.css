@@ -25,6 +25,9 @@
 .contact__container > p > span {
   color: orangered;
 }
+.contact__container > p > a > span {
+  color: orangered;
+}
 .contact__icons>a>button.MuiSvgIcon-root{
     color: white;
     font-size: 30px;

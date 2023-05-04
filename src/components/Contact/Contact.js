@@ -7,13 +7,15 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import InstagramIcon from '@mui/icons-material/Instagram';
 
 
+
 const Contact = () => {
+
   return (
     <Element className="contact" id="contacts">
       <h1>Contact</h1>
       <div className="contact__container">
         <p>
-          Email:<span>ahamedanasali0@gmail.com</span>
+          Email:<a href="mailto:ahamedanasali0@gmail.com"><span>ahamedanasali0@gmail.com</span></a>
         </p>
         <p>
           Github Username:<span>Ahamedanas123</span>

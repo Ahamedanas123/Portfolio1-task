@@ -2,28 +2,3 @@ a{
   text-decoration: none ;
   color: white;
 }
-@media only screen and (max-width: 568px) {
- body{
-  margin: 0;
- }
-}
-@media screen and (max-width:1110px) {
-  body{
-    margin: 0;
-  }
-}
-@media screen and (max-width:910px){
-  body{
-    margin: 0;
-  }
-}
-@media screen and (max-width:810px){
-  body{
-    margin: 0;
-  }
-}
-@media screen and (max-width:372px){
-  body{
-    margin: 0;
-  }
-}
