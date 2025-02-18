@@ -21,6 +21,8 @@
     font-family: "Alata",sans-serif;
     letter-spacing: 1px;
     padding: 20px 0;
+    white-space: nowrap; 
+    display: inline-block; 
 }
 .header__left > h1 > span{
     color: orangered;
@@ -60,4 +62,56 @@
     padding: 5px 20px;
     border-radius: 2px;
     cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column; /* Stack items vertically */
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .header__left {
+    flex: 1; /* Take full width */
+  }
+
+  .header__left > h1 {
+    font-size: 22px; /* Adjust font size */
+  }
+
+  .header__right {
+    flex-direction: column; /* Stack links vertically */
+    flex: 1;
+    justify-content: center;
+    gap: 10px; /* Add spacing between links */
+  }
+
+  .header__right > a > h4 {
+    font-size: 16px; /* Reduce font size */
+    padding: 10px 0;
+  }
+
+  .header__right > a > h4:hover {
+    padding: 5px 15px; /* Adjust hover effect */
+    font-size: 16px;
+  }
+
+  .button {
+    padding: 5px 15px; /* Adjust button size */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header__left > h1 {
+    font-size: 18px; /* Further reduce font size */
+  }
+
+  .header__right > a > h4 {
+    font-size: 14px;
+  }
+
+  .button {
+    font-size: 14px;
+    padding: 4px 12px;
+  }
 }

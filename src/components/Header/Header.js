@@ -6,7 +6,7 @@ const Header = () => {
     <div className="header">
       <div className="header__left">
         <h1>
-          MERN <span>STACK</span> DEVELOPER{" "}
+          MERN <span>stack</span> and <span>Android</span> DEVELOPER{" "}
         </h1>
       </div>
       <div className="header__right">

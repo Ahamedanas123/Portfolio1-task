@@ -17,9 +17,6 @@ const Contact = () => {
         <p>
           Email:<a href="mailto:ahamedanasali0@gmail.com"><span>ahamedanasali0@gmail.com</span></a>
         </p>
-        <p>
-          Github Username:<span>Ahamedanas123</span>
-        </p>
         <div className="contact__icons">
           <a href="https://www.linkedin.com/in/ahamed-anas-ali-38883a219/" target="blank">
             <IconButton>
@@ -32,7 +29,7 @@ const Contact = () => {
             </IconButton>
           </a>
          
-          <a href="https://www.instagram.com/_.rc_.rider_.anas/" target="blank">
+          <a href="" target="blank">
             <IconButton>
               <InstagramIcon />
             </IconButton>

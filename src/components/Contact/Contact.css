@@ -36,4 +36,27 @@
     color: white !important;
 }
 
+@media screen and (max-width: 768px) {
+  .contact__container {
+    width: 90%; /* Adjust width for smaller screens */
+    height: auto; /* Allow content to dictate height */
+    padding: 20px; /* Reduce padding for better spacing */
+  }
+
+  .contact__container > p {
+    font-size: 16px; /* Reduce font size for better fit */
+    text-align: center; /* Center text for mobile readability */
+    padding-bottom: 20px;
+  }
+
+  .contact {
+    margin: 100px 0 50px; /* Reduce margins for smaller screens */
+  }
+
+  .contact__icons > a > button.MuiSvgIcon-root {
+    font-size: 24px; /* Reduce icon size */
+  }
+}
+
+
 

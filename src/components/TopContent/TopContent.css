@@ -65,3 +65,79 @@
     background-color: black;
     font-weight: 600;
 }
+
+@media screen and (max-width: 1024px) {
+    .topcontent__container {
+      top: 250px;
+      left: 30px;
+    }
+  
+    .topcontent__container > h1 {
+      font-size: 42px;
+    }
+  
+    .topcontent__container > h2 {
+      font-size: 34px;
+    }
+  
+    .topcontent__downloadButton,
+    .topcontent__hireButton {
+      font-size: 13px;
+      padding: 8px 25px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .topcontent__container {
+      top: 200px;
+      left: 20px;
+      text-align: center;
+    }
+  
+    .topcontent__container > h1 {
+      font-size: 36px;
+    }
+  
+    .topcontent__container > h2 {
+      font-size: 30px;
+    }
+  
+    .topcontent__container > p {
+      text-align: center;
+      padding-left: 0;
+    }
+  
+    .topcontent__downloadButton,
+    .topcontent__hireButton {
+      font-size: 12px;
+      padding: 7px 20px;
+      margin: 10px 5px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .topcontent__container {
+      top: 150px;
+      left: 10px;
+      text-align: center;
+    }
+  
+    .topcontent__container > h1 {
+      font-size: 28px;
+    }
+  
+    .topcontent__container > h2 {
+      font-size: 24px;
+    }
+  
+    .topcontent__container > p {
+      font-size: 14px;
+    }
+  
+    .topcontent__downloadButton,
+    .topcontent__hireButton {
+      font-size: 11px;
+      padding: 6px 18px;
+    }
+  }
+  

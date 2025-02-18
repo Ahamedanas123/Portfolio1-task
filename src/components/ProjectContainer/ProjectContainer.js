@@ -7,10 +7,16 @@ import "./ProjectContainer.css"
 const ProjectContainer = () => {
   const projects = [
     {
-      img: "https://static.vecteezy.com/system/resources/previews/003/399/771/original/youtube-icon-editorial-free-vector.jpg",
-      title: "Youtube Clone",
-      desc: "create youtube clone using HTML CSS JAVASCRIPT",
-      link: "https://fastidious-eclair-db6d6d.netlify.app/",
+      img: require("../../Assets/logo.png"),
+      title: "Arctic Explorer Adventures",
+      desc: "Designed a responsive website for an Iceland-based tourism company using React JS",
+      link: "https://arcticexploreradventures.netlify.app/",
+    },
+    {
+      img: require("../../Assets/space.png"),
+      title: "Spacelakh",
+      desc: "The One-Stop Digital Agency For Website Design, Website Development & Digital Marketing In India",
+      link: "https://spacelakhfrontend.netlify.app/",
     },
   ];
 
@@ -18,7 +24,6 @@ const ProjectContainer = () => {
     
     <Element className="projectcontainer" id="projects">
       <h1>projects</h1>
-      <p>Here is my only projects</p>
       <div className="projectcontainer__projects">
         {projects.map((project, index) => {
           return (

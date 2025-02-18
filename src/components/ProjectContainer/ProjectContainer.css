@@ -20,3 +20,50 @@
     margin-top: 50px;
     justify-content: center;
 }
+
+@media screen and (max-width: 1024px) {
+  .projectcontainer__projects {
+    width: 80vw; /* Increase width for better spacing */
+    flex-wrap: wrap; /* Allow items to wrap */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .projectcontainer {
+    margin: 100px 0; /* Reduce margin */
+    text-align: center;
+  }
+
+  .projectcontainer__projects {
+    width: 90vw; /* Further increase width */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+  }
+
+  .projectcontainer > h1 {
+    font-size: 24px; /* Adjust font size */
+  }
+
+  .projectcontainer > p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .projectcontainer {
+    margin: 80px 0; /* Reduce margin further */
+  }
+
+  .projectcontainer > h1 {
+    font-size: 20px;
+  }
+
+  .projectcontainer > p {
+    font-size: 14px;
+  }
+
+  .projectcontainer__projects {
+    width: 95vw; /* Max width */
+  }
+}
+

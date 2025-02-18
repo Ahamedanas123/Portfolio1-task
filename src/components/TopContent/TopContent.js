@@ -14,7 +14,7 @@ const TopContent = () => {
                   sequence={[
                     "MERN STACK DEVELOPER 😎",
                     1000,
-                    "PROBLEM SOLVER 😎",
+                    "ANDROID NATIVE DEVELOPER 😎",
                     2000,
                     () => {
                       console.log("Sequence completed");
@@ -26,12 +26,12 @@ const TopContent = () => {
                   style={{ fontSize: "1rem", display: "inline-block" }}
                 />
               </h2><br></br>
-        <a href="Ahamed Anas Ali A.pdf" download="Ahamed Anas Ali A.pdf">
+        <a href="Ahamed_Anas_Ali.pdf" download="Ahamed Anas Ali A.pdf">
           <button className="topcontent__downloadButton">Resume</button>
         </a>
-        <Link to="contacts" smooth={true} duration={500}>
+        {/* <Link to="contacts" smooth={true} duration={500}>
           <button className="topcontent__hireButton">Hire Me</button>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );

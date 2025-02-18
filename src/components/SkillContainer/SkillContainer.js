@@ -8,51 +8,63 @@ const SkillContainer = () => {
   return (
    
     <Element className='skillcontainer' id="skills">
-        <div className='skillcontainer__image'>
+        {/* <div className='skillcontainer__image'>
             <img src={skillimg} alt=''/>
-        </div>
+        </div> */}
         <div className='skillcontainer__text'>
-            <h2>SKILLSET</h2>
+            <h2>SKILLS</h2>
             <div className='skillcontainer__skillset'>
                 <h5>HTML</h5>
                 <div className='skillcontainer__slider skillcontainer__slider1'>
-                    <LinearProgress variant="determinate" value={90} />
+                    <LinearProgress variant="determinate" value={100} />
                 </div>
             </div>
             <div className='skillcontainer__skillset'>
                 <h5>CSS</h5>
                 <div className='skillcontainer__slider skillcontainer__slider2'>
-                    <LinearProgress variant="determinate" value={90} />
+                    <LinearProgress variant="determinate" value={100} />
                 </div>
             </div>
             <div className='skillcontainer__skillset'>
                 <h5>JAVSCRIPT</h5>
                 <div className='skillcontainer__slider skillcontainer__slider3'>
-                    <LinearProgress variant="determinate" value={80} />
+                    <LinearProgress variant="determinate" value={100} />
                 </div>
             </div>
             <div className='skillcontainer__skillset'>
                 <h5>REACT JS</h5>
                 <div className='skillcontainer__slider skillcontainer__slider4'>
-                    <LinearProgress variant="determinate" value={60} />
+                    <LinearProgress variant="determinate" value={100} />
                 </div>
             </div>
-            <div className='skillcontainer__skillset'>
+            {/* <div className='skillcontainer__skillset'>
                 <h5>NODE JS</h5>
                 <div className='skillcontainer__slider skillcontainer__slider5'>
-                    <LinearProgress variant="determinate" value={45} />
+                    <LinearProgress variant="determinate" value={100} />
                 </div>
             </div>
             <div className='skillcontainer__skillset'>
                 <h5>MONGO DB</h5>
                 <div className='skillcontainer__slider skillcontainer__slider6'>
-                    <LinearProgress variant="determinate" value={90} />
+                    <LinearProgress variant="determinate" value={100} />
                 </div>
-            </div>
+            </div> */}
             <div className='skillcontainer__skillset'>
                 <h5>MYSQL</h5>
                 <div className='skillcontainer__slider skillcontainer__slider7'>
-                    <LinearProgress variant="determinate" value={75} />
+                    <LinearProgress variant="determinate" value={100} />
+                </div>
+            </div>
+            <div className='skillcontainer__skillset'>
+                <h5>CORE JAVA</h5>
+                <div className='skillcontainer__slider skillcontainer__slider7'>
+                    <LinearProgress variant="determinate" value={100} />
+                </div>
+            </div>
+            <div className='skillcontainer__skillset'>
+                <h5>SQLITE</h5>
+                <div className='skillcontainer__slider skillcontainer__slider7'>
+                    <LinearProgress variant="determinate" value={100} />
                 </div>
             </div>
         </div>

@@ -7,3 +7,27 @@
     
     
 }
+
+@media screen and (max-width: 1024px) {
+    .topcontainer {
+      height: 80vh; /* Reduce height for smaller screens */
+      background-size: contain; /* Adjust background size */
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .topcontainer {
+      height: 70vh;
+      background-position: center;
+      background-size: cover;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .topcontainer {
+      height: 60vh; /* Reduce height for mobile */
+      background-size: cover;
+      background-position: top; /* Adjust positioning */
+    }
+  }
+  
