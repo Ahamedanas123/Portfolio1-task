@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-scroll";
 import { TypeAnimation } from "react-type-animation";
 import "./TopContent.css";
 
@@ -26,7 +25,7 @@ const TopContent = () => {
                   style={{ fontSize: "1rem", display: "inline-block" }}
                 />
               </h2><br></br>
-        <a href="Ahamed_Anas_Ali.pdf" download="Ahamed Anas Ali A.pdf">
+        <a href="AhamedAnasAliA_ASE.pdf" download="AhamedAnasAliA_ASE.pdf">
           <button className="topcontent__downloadButton">Resume</button>
         </a>
         {/* <Link to="contacts" smooth={true} duration={500}>

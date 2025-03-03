@@ -64,11 +64,18 @@
     cursor: pointer;
 }
 
+.main-content {
+  padding-top: 100px; /* Adjust this value based on your header's height */
+}
+
+/* Existing CSS remains the same until the media queries */
+
 @media screen and (max-width: 768px) {
   .header {
     flex-direction: column; /* Stack items vertically */
     text-align: center;
     padding: 10px 0;
+    position: relative; /* Change position to relative for mobile view */
   }
 
   .header__left {
@@ -98,6 +105,24 @@
 
   .button {
     padding: 5px 15px; /* Adjust button size */
+  }
+}
+/* Adjust header height for mobile view */
+@media screen and (max-width: 768px) {
+  .header {
+    height: 60px; /* Reduce header height */
+    position: static;
+    top: 0;
+  }
+
+  .header__left > h1 {
+    font-size: 18px; /* Reduce font size */
+    padding: 10px 0; /* Reduce padding */
+  }
+
+  .header__right > a > h4 {
+    font-size: 14px; /* Reduce font size */
+    padding: 5px 0; /* Reduce padding */
   }
 }
 
